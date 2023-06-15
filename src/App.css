@@ -54,7 +54,7 @@ nav {
   width: 100%;
   padding: 20px;
   margin: 0 0 0 5%;
-  max-height: 95%;
+  height: 95%;
   overflow: scroll;
   overflow-x: scroll;
   box-sizing: border-box;
@@ -77,7 +77,7 @@ nav {
 }
 
 .contentlist :hover {
-  color: yellow;
+  color: blue;
   cursor: pointer;
 }
 
@@ -95,6 +95,11 @@ nav {
   display: inline-block;
   text-align:justify;
 
+}
+
+#frontend:hover, #javascript:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .Education img{
