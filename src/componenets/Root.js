@@ -4,8 +4,8 @@ import ContentList from "./contentList";
 import { Outlet, useNavigate } from "react-router-dom";
 
 export default function Root() {
-    const navigate = useNavigate();
     useEffect(() => {
+        const navigate = useNavigate();
         navigate("/intro");
     }, [])
 
