@@ -4,10 +4,11 @@ import ContentList from "./contentList";
 import { Outlet, useNavigate } from "react-router-dom";
 
 export default function Root() {
+    const navigate = useNavigate();
     useEffect(() => {
-        const navigate = useNavigate();
         navigate("/intro");
-    }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
     return (
         <>
