@@ -6,6 +6,7 @@ import Intro from './componenets/Intro';
 import AboutMe from './componenets/AboutMe';
 import WorkExp from './componenets/workExp';
 import Education from './componenets/Education';
+import ITSkills from './componenets/ITskills';
 import Contact from './componenets/Contact';
 
 const router = createBrowserRouter(createRoutesFromElements(
@@ -14,6 +15,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="aboutMe" element={<AboutMe />} />
     <Route path="workExp" element={<WorkExp />} />
     <Route path="education" element={<Education />} />
+    <Route path="itskills" element={<ITSkills />} />
     <Route path="contact" element={<Contact />} />
   </Route>
 ))

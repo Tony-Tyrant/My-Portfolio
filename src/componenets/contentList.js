@@ -6,7 +6,7 @@ const contents = {
   aboutMe: 'ABOUT ME',
   education: 'EDUCATION & CERTIFICATES',
   workExp: 'WORK EXPERIENCE',
-  //itSkill: 'IT SKILLS WITH PROJECT EXERCRISE',
+  itSkills: 'IT SKILLS WITH PROJECT EXERCRISE',
   contact: 'CONTACT'
 };
 
