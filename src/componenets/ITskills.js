@@ -9,6 +9,7 @@ export default function ITSkills() {
                 <img src="resources/1631110818-logo-react-js.png" alt="React logo"/>
                 <img src="resources/reactrouter.png" alt="React Router logo"/>
                 <img src="resources/redux.png" alt="React-Redux logo"/>
+                <img src="resources/ba8u9otcvrpidtbd94kvclvgb2.png" alt="git logo"/>
             </div>
             <div id="appointmentmaker">
                 <h3>
