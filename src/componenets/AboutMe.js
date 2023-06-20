@@ -29,7 +29,7 @@ export default function AboutMe() {
                 <br />
                 My career transition has taught me the importance of adaptability, continuous learning, 
                 and perseverance. I am excited about the opportunities and challenges that the IT industry 
-                presents and I am ready to contribute to the continuous growing industry.
+                presents and I am ready to contribute to the continuously growing industry.
             </p>
         </div>
     );
