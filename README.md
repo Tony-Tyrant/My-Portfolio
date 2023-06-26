@@ -1,7 +1,7 @@
 #Tony Ho's CV
 -------------
 
-This web-page CV is made by a former engineer
+This web-page Portfolio is made by a former engineer
 who worked in the building industry and
 seeking for an opportunity for career transition
 through self-taught programming.
