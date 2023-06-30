@@ -34,7 +34,7 @@ export default function Education() {
                         alt='Certificate of the completion of a Bootstrap Course in Codecademy'
                         hidden={selected === 'bootstrap' ? false : true} />
                 </div>
-                <div class="flex-shrink-0"><span class="text-primary fs-4">Jun 2023</span></div>
+                <div class="flex-shrink-0"><span class="fs-4">Jun 2023</span></div>
             </div>
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -58,7 +58,7 @@ export default function Education() {
                         alt='Certificate of the completion of a Front-End Engineer Course in Codecademy'
                         hidden={selected === 'frontend' ? false : true} />
                 </div>
-                <div class="flex-shrink-0"><span class="text-primary fs-4">Jun 2023</span></div>
+                <div class="flex-shrink-0"><span class="fs-4">Jun 2023</span></div>
             </div>
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -82,7 +82,7 @@ export default function Education() {
                         alt='Certificate of the completion of a JavaScript Course in Codecademy'
                         hidden={selected === 'javascript' ? false : true} />
                 </div>
-                <div class="flex-shrink-0"><span class="text-primary fs-4">Jan 2023</span></div>
+                <div class="flex-shrink-0"><span class="fs-4">Jan 2023</span></div>
             </div>
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -101,7 +101,7 @@ export default function Education() {
                         </a>
                     </div>
                 </div>
-                <div class="flex-shrink-0"><span class="text-primary fs-4">Oct 2013</span></div>
+                <div class="flex-shrink-0"><span class="fs-4">Oct 2013</span></div>
             </div>
         </section>
     );
