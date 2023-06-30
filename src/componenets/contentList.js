@@ -2,27 +2,35 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const contents = {
-  intro: 'HOME',
+  //home: 'HOME',
   aboutMe: 'ABOUT ME',
   education: 'EDUCATION & CERTIFICATES',
-  workExp: 'WORK EXPERIENCE',
-  itSkills: 'IT SKILLS WITH PROJECT EXERCRISE',
-  contact: 'CONTACT'
+  //workExp: 'WORK EXPERIENCE',
+  itSkills: 'SKILLS & PROJECT EXERCRISES',
+  //contact: 'CONTACT'
 };
 
 
-export default function ContentList() {
+export default function ContentList({ click, className, currentPage }) {
   const list = Object.keys(contents).map(page => {
+    const active = '/'+ page === currentPage? "active" : ""
     return (
-      <Link to={"/" + page} id={page} >
-        {contents[page]}&emsp;
-      </Link>
+      <li className="nav-item" onClick={click}>
+        <Link
+          to={"/" + page}
+          id={page}
+          className={className + " " + active}>
+
+          {contents[page]}&emsp;
+
+        </Link>
+      </li>
     )
   });
 
   return (
-    <div className="contentlist">
+    <>
       {list}
-    </div>
+    </>
   );
 }

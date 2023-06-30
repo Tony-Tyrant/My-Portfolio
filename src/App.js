@@ -1,8 +1,8 @@
 import React from 'react';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, useLocation } from 'react-router-dom';
 import './App.css';
 import Root from './componenets/Root';
-import Intro from './componenets/Intro';
+import Home from './componenets/Home';
 import AboutMe from './componenets/AboutMe';
 import WorkExp from './componenets/workExp';
 import Education from './componenets/Education';
@@ -11,7 +11,7 @@ import Contact from './componenets/Contact';
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Root />}>
-    <Route path="intro" element={<Intro />} />
+    <Route path="home" element={<Home />} />
     <Route path="aboutMe" element={<AboutMe />} />
     <Route path="workExp" element={<WorkExp />} />
     <Route path="education" element={<Education />} />

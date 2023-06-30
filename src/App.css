@@ -1,79 +1,5 @@
-html {
+html, body, #root {
   height: 100%
-  
-}
-
-body {
-  height: 100%;
-  min-width: 30rem;
-}
-
-#root {
-  height: 100%;
-  background-image: url("../public/resources/v915-wit-002-d.jpg");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: scroll;
-}
-
-.app-header {
-  margin: 0 0 0 25%;
-  height: auto;
-  min-height: 1rem;
-  box-sizing: border-box;
-  padding: 10px;
-  overflow:hidden;
-  
-}
-
-.app-header h1{
-  color: black;
-  text-align: center;
-  max-height: auto;
-}
-
-main {
-  display: flex;
-  align-items: flex-start;
-  height: 90%;
-  box-sizing: border-box;
-}
-
-nav {
-  padding: 10px;
-  width: 25%;
-  margin: 10px;
-  min-width: 150px;
-  box-sizing: border-box;
-  position: relative;
-  top: 65%;
-}
-
-.content {
-  width: 100%;
-  padding: 20px;
-  margin: 0 0 0 5%;
-  height: 95%;
-  overflow: scroll;
-  overflow-x: scroll;
-  box-sizing: border-box;
-}
-
-.contentlist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  
-}
-
-.contentlist a{
-  font-size: 1.05em;
-  text-decoration: none;
-  color:rgb(99, 117, 218);
-  padding-bottom: 20px;
-  font-weight: bold;
 }
 
 .contentlist :hover {
@@ -81,38 +7,26 @@ nav {
   cursor: pointer;
 }
 
-.intro p{
-  font-size: 1.1em;
-  border: 1px solid black;
-  border-radius: 30px;
-  padding: 20px;
-  margin-right: 10%;
-  margin-left: 10%;
-  text-align: justify;
+#social_logo {
+  opacity: 50%;
 }
 
-.about-me {
-  display: inline-block;
-  text-align:justify;
-
+#social_logo:hover{
+  opacity: 100%;
 }
 
-#frontend:hover, #javascript:hover {
+#frontend:hover, #javascript:hover, #bootstrap:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.Education img {
-  max-width: 100%;
-}
-
-.itskills #pics {
+#itskills #pics {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 50px;
   }
 
-.itskills img {
+#itskills img {
   height: 100px;
 }
 
@@ -121,7 +35,7 @@ nav {
   to {height: 120px;}
 }
 
-.itskills img:hover {
+#itskills img:hover {
   animation-name: enlarge;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
