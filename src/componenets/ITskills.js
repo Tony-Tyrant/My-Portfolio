@@ -5,13 +5,13 @@ export default function ITSkills() {
         <section id="itskills">
             <h2 className="my-5 text-uppercase">programming languages & tools</h2>
             <div id="pics" className="d-flex flex-between align-items-center flex-lg-nowrap flex-wrap align-content-around">
-                <img src="resources/HTML5_logo_and_wordmark.svg.png" alt="HTML logo" />
-                <img src="resources/javascript-logo.png" alt="JavaScript logo" />
-                <img src="resources/1631110818-logo-react-js.png" alt="React logo" />
-                <img src="resources/reactrouter.png" alt="React Router logo" />
-                <img src="resources/redux.png" alt="React-Redux logo" />
-                <img src="resources/bootstrap.png" alt="bootstrap logo" />
-                <img src="resources/ba8u9otcvrpidtbd94kvclvgb2.png" alt="git logo" />
+                <img className="p-1" src="resources/HTML5_logo_and_wordmark.svg.png" alt="HTML logo" />
+                <img className="p-1" src="resources/javascript-logo.png" alt="JavaScript logo" />
+                <img className="p-1" src="resources/1631110818-logo-react-js.png" alt="React logo" />
+                <img className="p-1" src="resources/reactrouter.png" alt="React Router logo" />
+                <img className="p-1" src="resources/redux.png" alt="React-Redux logo" />
+                <img className="p-1" src="resources/bootstrap.png" alt="bootstrap logo" />
+                <img className="p-1" src="resources/ba8u9otcvrpidtbd94kvclvgb2.png" alt="git logo" />
             </div>
 
             <h2 className="my-5 pt-5 text-uppercase">project excerises</h2>
@@ -26,7 +26,6 @@ export default function ITSkills() {
                     </a>
                 </h3>
                 <p>
-                    <span>Description:</span>
                     <ul>
                         <li>A single-page-appication
                             which can save customer's contacts and
@@ -46,7 +45,6 @@ export default function ITSkills() {
                     </a>
                 </h3>
                 <p>
-                    <span>Description:</span>
                     <ul>
                         <li>A single-page-application
                             contains numberous of articles which
@@ -68,7 +66,6 @@ export default function ITSkills() {
                     </a>
                 </h3>
                 <p>
-                    <span>Description:</span>
                     <ul>
                         <li>A single-page-application
                             for user to create quizz revision cards

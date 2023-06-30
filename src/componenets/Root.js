@@ -64,7 +64,7 @@ export default function Root() {
 
                 <div className="row h-100">
                     <div className="col-lg-3 d-none d-lg-block bg-success"></div>
-                    <div className="col-lg-9 px-5">
+                    <div className="col-lg-9 px-1 px-md-5">
                         <Outlet />
                     </div>
                 </div>
