@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
     return (
         <section id="aboutme">
-            <div className='mt-5 mx-5'>
+            <div className='mt-md-5 mx-md-5'>
                 <p className='lead'>
                     I graduated with a Bachelor of Building Services Engineering.
                     During almost 10 years of life being a BS engineer,
