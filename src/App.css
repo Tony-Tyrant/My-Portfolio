@@ -2,13 +2,31 @@ html, body, #root {
   height: 100%
 }
 
+h1 {
+  font-family: Saira Extra Condensed;
+}
+
+p, h5 {
+  color: #333333;
+}
+
+b{
+  font-weight: 700;
+  color: #666666;
+}
+
 .contentlist :hover {
   color: blue;
   cursor: pointer;
 }
 
+#content-list {
+  font-family: Saira;
+}
+
 #social_logo {
   opacity: 50%;
+  height: 90px
 }
 
 #social_logo:hover{

@@ -36,7 +36,7 @@ export default function Root() {
                             alt="Tony Ho Logo - back to homepage"
                             id="tony-logo"
                             className="d-lg-none"
-                            style={{height: "50px"}} />
+                            style={{height: "3rem"}} />
 
                     </Link>
                     <button

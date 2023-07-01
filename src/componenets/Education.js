@@ -5,27 +5,43 @@ export default function Education() {
 
     function clickHandle({ target }) {
         if (selected === target.id) {
-            setSelected('')
+            setSelected('');
         } else {
             setSelected(target.id);
         }
+        // rotateDropdown();
     }
+
+    // function rotateDropdown() {
+    //     if(selected) {
+    //         document.querySelector("img #"+selected).style.transform = "rotate(180deg)";
+    // }}
 
     return (
         <section id='Education'>
-            <div className="d-flex flex-column flex-md-row justify-content-between my-5">
+            <h2 className="mt-5 text-uppercase text-decoration-underline">certificates</h2>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            
+
                 <div className="flex-grow-1">
-                    <h3 className="mb-0" id="bootstrap" onClick={clickHandle}>
-                        Certificate of Completion Learn Bootstrap Course
+                    <h3 className="mb-0 text-body-secondary" id="bootstrap" onClick={clickHandle}>
+                        Certificate of Completion Learn Bootstrap Course&nbsp;
+                        <img 
+                            style={selected === 'bootstrap' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
+                            src="resources/dropdown.png" 
+                            alt="dropdown" 
+                            onClick={clickHandle}/>
                     </h3>
-                    <div className="mb-3 fs-5">
+
+                    <div className="mb-3 fs-5 ">
                         <a
                             href="http://www.codecademy.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="codecademy.com">
+                            title="codecademy.com"
+                            className='link-secondary text-decoration-none '>
 
-                            Codecademy
+                            Codecademy ↗
                         </a>
                     </div>
                     <img
@@ -39,17 +55,23 @@ export default function Education() {
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0" id="frontend" onClick={clickHandle}>
-                        Professional Certification Front-End Engineer
+                    <h3 className="mb-0 text-body-secondary" id="frontend" onClick={clickHandle}>
+                        Professional Certification Front-End Engineer&nbsp;
+                        <img 
+                            style={selected === 'frontend' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
+                            src="resources/dropdown.png" 
+                            alt="dropdown" 
+                            onClick={clickHandle}/>
                     </h3>
                     <div className="fs-5 mb-3">
                         <a
                             href="http://www.codecademy.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="codecademy.com">
+                            title="codecademy.com"
+                            className='link-secondary text-decoration-none '>
 
-                            Codecademy
+                            Codecademy ↗
                         </a>
                     </div>
                     <img
@@ -63,17 +85,23 @@ export default function Education() {
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0" id="javascript" onClick={clickHandle}>
-                        Certificate of Completion Learn JavaScript Course
+                    <h3 className="mb-0 text-body-secondary" id="javascript" onClick={clickHandle}>
+                        Certificate of Completion Learn JavaScript Course&nbsp;
+                        <img 
+                            style={selected === 'javascript' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
+                            src="resources/dropdown.png" 
+                            alt="dropdown" 
+                            onClick={clickHandle}/>
                     </h3>
                     <div className="mb-3 fs-5">
                         <a
                             href="http://www.codecademy.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="codecademy.com">
+                            title="codecademy.com"
+                            className='link-secondary text-decoration-none '>
 
-                            Codecademy
+                            Codecademy ↗
                         </a>
                     </div>
                     <img
@@ -85,9 +113,10 @@ export default function Education() {
                 <div class="flex-shrink-0"><span class="fs-4">Jan 2023</span></div>
             </div>
 
+            <h2 className="mt-5 pt-5 text-uppercase text-decoration-underline">education</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0" id="university">
+                    <h3 className="mb-0 text-body-secondary" id="university">
                         Bachelor of Engineering in Building Services Engineering
                     </h3>
                     <div className="mb-3 fs-5">
@@ -95,9 +124,10 @@ export default function Education() {
                             href="http://www.polyu.edu.hk/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="The Hong Kong Polytechnic University (PolyU)">
+                            title="The Hong Kong Polytechnic University (PolyU)"
+                            className='link-secondary text-decoration-none '>
 
-                            Hong Kong Polytechnic University
+                            Hong Kong Polytechnic University ↗
                         </a>
                     </div>
                 </div>

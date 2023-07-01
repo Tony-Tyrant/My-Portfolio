@@ -5,8 +5,8 @@ export default function Home() {
         <section id="home">
             <div className="row">
                 <div className="col">
-                    <div className="rounded-5 bg-success bg-opacity-50 border border-5 border-success">
-                        <p className="text-start p-4 fs-5">
+                    <div className="rounded-5 bg-success bg-opacity-25 border border-5 border-success">
+                        <p className="text-center p-4 fs-5 lead">
                             This responsive web-page is built with
                             <span className="fw-bold"> React.js</span> and <span className="fw-bold">Bootstrap. </span>
                             <br></br>

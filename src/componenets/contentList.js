@@ -13,18 +13,19 @@ const contents = {
 
 export default function ContentList({ click, className, currentPage }) {
   const list = Object.keys(contents).map(page => {
-    const active = '/'+ page === currentPage? "active" : ""
+    const active = '/'+ page === currentPage? "active" : "text-opacity-50"
     return (
+      <section id="content-list">
       <li className="nav-item" onClick={click}>
         <Link
           to={"/" + page}
           id={page}
           className={className + " " + active}>
-
           {contents[page]}&emsp;
 
         </Link>
       </li>
+      </section>
     )
   });
 

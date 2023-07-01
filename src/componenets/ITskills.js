@@ -3,7 +3,7 @@ import React from "react"
 export default function ITSkills() {
     return (
         <section id="itskills">
-            <h2 className="my-5 text-uppercase">programming languages & tools</h2>
+            <h2 className="mt-5 mb-3 text-uppercase">programming languages & tools</h2>
             <div id="pics" className="d-flex flex-between align-items-center flex-lg-nowrap flex-wrap align-content-around">
                 <img className="p-1" src="resources/HTML5_logo_and_wordmark.svg.png" alt="HTML logo" />
                 <img className="p-1" src="resources/javascript-logo.png" alt="JavaScript logo" />
@@ -14,7 +14,7 @@ export default function ITSkills() {
                 <img className="p-1" src="resources/ba8u9otcvrpidtbd94kvclvgb2.png" alt="git logo" />
             </div>
 
-            <h2 className="my-5 pt-5 text-uppercase">project excerises</h2>
+            <h2 className="mt-5 mb-3 pt-5 text-uppercase">project excerises</h2>
             <div className="lead pb-4" id="appointmentmaker">
                 <h3>
                     <a

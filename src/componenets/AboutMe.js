@@ -7,16 +7,16 @@ export default function AboutMe() {
                 <p className='lead'>
                     I graduated with a Bachelor of Building Services Engineering.
                     During almost 10 years of life being a BS engineer,
-                    I gained valuable experience in project management,
-                    problem-solving, and attention to detail.
+                    I gained valuable experience in <b>project management</b>,
+                    <b> problem-solving</b> and <b>attention to detail</b>.
                     Due to a conversation with a friend of mine,
                     I started to learn programming through various online courses
                     and personal projects after work.
                     Meanwhile, I discovered my passion for it and decided to make a career change.<br />
                     <br />
                     As a self-taught programmer, I have honed my skills in programming languages such as
-                    HTML, CSS, and JavaScript and have experience working with front-end frameworks
-                    such as React.js and Bootstrap. I have also taken online courses and completed
+                    <b> HTML</b>,<b> CSS</b> and <b>JavaScript</b> and have experience working with front-end frameworks
+                    such as <b>React.js</b> and <b>Bootstrap</b>. I have also taken online courses and completed
                     personal projects to expand my knowledge and stay up-to-date with the latest
                     industry trends.<br />
                     <br />
