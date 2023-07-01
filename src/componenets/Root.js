@@ -30,7 +30,14 @@ export default function Root() {
                             alt="Tony Ho Logo - back to homepage"
                             id="tony-logo"
                             className="w-75 mt-lg-3 d-none d-lg-block" />
-                        <h2 className="text-light d-lg-none">HOME</h2>
+
+                        <img
+                            src="resources/tony_logo_1.jpeg"
+                            alt="Tony Ho Logo - back to homepage"
+                            id="tony-logo"
+                            className="d-lg-none"
+                            style={{height: "50px"}} />
+
                     </Link>
                     <button
                         className="navbar-toggler bg-light"
