@@ -83,7 +83,7 @@ export default function ITSkills() {
                 <p>
                     <ul>
                         <li>A single-page-application
-                            for user to create quizz revision cards
+                            for user to create quiz revision cards
                             with different topics.
                         </li>
                     </ul>
