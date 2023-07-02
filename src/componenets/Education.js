@@ -19,19 +19,19 @@ export default function Education() {
 
     return (
         <section id='Education'>
-            <h2 className="mt-5 text-uppercase text-decoration-underline">certificates</h2>
+            <h2 className="mt-5 text-uppercase text-decoration-underline fw-bold">certificates</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             
 
                 <div className="flex-grow-1">
-                    <h3 className="mb-0 text-body-secondary" id="bootstrap" onClick={clickHandle}>
+                    <h4 className="mb-0 text-body-secondary" id="bootstrap" onClick={clickHandle}>
                         Certificate of Completion Learn Bootstrap Course&nbsp;
                         <img 
                             style={selected === 'bootstrap' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
                             src="resources/dropdown.png" 
                             alt="dropdown" 
                             onClick={clickHandle}/>
-                    </h3>
+                    </h4>
 
                     <div className="mb-3 fs-5 ">
                         <a
@@ -55,14 +55,14 @@ export default function Education() {
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0 text-body-secondary" id="frontend" onClick={clickHandle}>
+                    <h4 className="mb-0 text-body-secondary" id="frontend" onClick={clickHandle}>
                         Professional Certification Front-End Engineer&nbsp;
                         <img 
                             style={selected === 'frontend' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
                             src="resources/dropdown.png" 
                             alt="dropdown" 
                             onClick={clickHandle}/>
-                    </h3>
+                    </h4>
                     <div className="fs-5 mb-3">
                         <a
                             href="http://www.codecademy.com/"
@@ -85,14 +85,14 @@ export default function Education() {
 
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0 text-body-secondary" id="javascript" onClick={clickHandle}>
+                    <h4 className="mb-0 text-body-secondary" id="javascript" onClick={clickHandle}>
                         Certificate of Completion Learn JavaScript Course&nbsp;
                         <img 
                             style={selected === 'javascript' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
                             src="resources/dropdown.png" 
                             alt="dropdown" 
                             onClick={clickHandle}/>
-                    </h3>
+                    </h4>
                     <div className="mb-3 fs-5">
                         <a
                             href="http://www.codecademy.com/"
@@ -113,12 +113,12 @@ export default function Education() {
                 <div class="flex-shrink-0"><span class="fs-4">Jan 2023</span></div>
             </div>
 
-            <h2 className="mt-5 pt-5 text-uppercase text-decoration-underline">education</h2>
+            <h2 className="mt-5 pt-5 text-uppercase text-decoration-underline fw-bold">education</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0 text-body-secondary" id="university">
+                    <h4 className="mb-0 text-body-secondary" id="university">
                         Bachelor of Engineering in Building Services Engineering
-                    </h3>
+                    </h4>
                     <div className="mb-3 fs-5">
                         <a
                             href="http://www.polyu.edu.hk/"
