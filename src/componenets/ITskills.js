@@ -14,16 +14,16 @@ export default function ITSkills() {
                 <img className="p-1" src="resources/ba8u9otcvrpidtbd94kvclvgb2.png" alt="git logo" />
             </div>
 
-            <h2 className="mt-5 pt-5 mb-3 text-uppercase text-decoration-underline fw-bold">project excerises</h2>
+            <h2 className="mt-5 pt-5 mb-3 text-uppercase text-decoration-underline fw-bold">personal project</h2>
             <div className="lead pb-4" id="appointmentmaker">
                 <h4>
                     <a
-                        href="https://clever-mermaid-4b7839.netlify.app"
+                        href="https://4-6-coffee-timer.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-decoration-none text-body-secondary"
-                        title="Contact List and Appointment Maker">
-                        Contact List and Appointment Maker&nbsp;
+                        title="4:6 Coffee Brewing System Timer">
+                        4:6 Coffee Brewing System Timer&nbsp;
                     </a>
                     <img 
                             src="resources/link_symbol.png" 
@@ -32,60 +32,11 @@ export default function ITSkills() {
                 </h4>
                 <p>
                     <ul>
-                        <li>A single-page-appication
-                            which can save customer's contacts and
-                            make appointments at restricted time.
-                        </li>
-                    </ul>
-                </p>
-            </div>
-            <div className="lead pb-4" id="articlemaker">
-                <h4>
-                    <a
-                        href="https://gleeful-cajeta-975eb7.netlify.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-decoration-none text-body-secondary"
-                        title="Article Library">
-                        Article Library&nbsp;
-                    </a>
-                    <img 
-                            src="resources/link_symbol.png" 
-                            alt="link"
-                            style={{height: "0.7em"}}/>
-                </h4>
-                <p>
-                    <ul>
-                        <li>A single-page-application
-                            contains numberous of articles which
-                            user can search the article by keywords or
-                            sort articles by catagories.
-                        </li>
-                    </ul>
-                </p>
-
-            </div>
-            <div className="lead pb-4" id="Quizcard">
-                <h4>
-                    <a
-                        href="https://fabulous-capybara-5f61d7.netlify.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-decoration-none text-body-secondary"
-                        title="Quiz Revision Cards Creator">
-                        Quiz Revision Cards Creator&nbsp;
-                    </a>
-                    <img 
-                            src="resources/link_symbol.png" 
-                            alt="link"
-                            style={{height: "0.7em"}}/>
-                </h4>
-                <p>
-                    <ul>
-                        <li>A single-page-application
-                            for user to create quiz revision cards
-                            with different topics.
-                        </li>
+                        <li>A web application for calculating the formular of brewing a cup of coffee as well as providing relevant timer.</li>
+                        <li>Using HTML form and React-Redux to collect and manage user inputs.</li>
+                        <li>Appling Bootstrap to achieve responsive design.</li>
+                        <li>Transmiting variables to multi-component by React Context hooks.</li>
+                        <li>Controlling the timer with the help of React useEffect and useState hooks.</li>
                     </ul>
                 </p>
             </div>
