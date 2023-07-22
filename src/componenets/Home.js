@@ -10,7 +10,7 @@ export default function Home() {
                             This responsive web-page is built with
                             <span className="fw-bold"> React.js</span> and <span className="fw-bold">Bootstrap. </span>
                             <br></br>
-                            I am a fresh front-end developer. Check this web-page out and find my abilities.
+                            I used to be an BS engineer. Check this web-page out and find my abilities.
                         </p>
                     </div>
                 </div>
