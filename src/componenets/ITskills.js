@@ -12,6 +12,7 @@ export default function ITSkills() {
                 <img className="p-1" src="resources/redux.png" alt="React-Redux logo" />
                 <img className="p-1" src="resources/bootstrap.png" alt="bootstrap logo" />
                 <img className="p-1" src="resources/ba8u9otcvrpidtbd94kvclvgb2.png" alt="git logo" />
+                <img className="p-1" src="resources/SQL.png" alt="SQL logo" />
             </div>
 
             <h2 className="mt-5 pt-5 mb-3 text-uppercase text-decoration-underline fw-bold">personal project</h2>

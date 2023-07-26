@@ -33,7 +33,7 @@ b{
   opacity: 100%;
 }
 
-#frontend:hover, #javascript:hover, #bootstrap:hover {
+#frontend:hover, #javascript:hover, #bootstrap:hover, #SQL:hover {
   text-decoration: underline;
   cursor: pointer;
 }

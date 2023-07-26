@@ -24,6 +24,39 @@ export default function Education() {
             
 
                 <div className="flex-grow-1">
+                    <h4 className="mb-0 text-body-secondary" id="SQL" onClick={clickHandle}>
+                        Certificate of Completion Learn SQL Course&nbsp;
+                        <img 
+                            style={selected === 'SQL' ? {height:"0.7em", rotate: "180deg"} : {height:"0.7em"}} 
+                            src="resources/dropdown.png" 
+                            alt="dropdown" 
+                            onClick={clickHandle}/>
+                    </h4>
+
+                    <div className="mb-3 fs-5 ">
+                        <a
+                            href="http://www.codecademy.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="codecademy.com"
+                            className='link-secondary text-decoration-none '>
+
+                            Codecademy ↗
+                        </a>
+                    </div>
+                    <img
+                        className="w-100"
+                        src='/resources/learn_SQL.png'
+                        alt='Certificate of the completion of a SQL Course in Codecademy'
+                        hidden={selected === 'SQL' ? false : true} />
+                </div>
+                <div class="flex-shrink-0"><span class="fs-4">Jul 2023</span></div>
+            </div>
+
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            
+
+                <div className="flex-grow-1">
                     <h4 className="mb-0 text-body-secondary" id="bootstrap" onClick={clickHandle}>
                         Certificate of Completion Learn Bootstrap Course&nbsp;
                         <img 
